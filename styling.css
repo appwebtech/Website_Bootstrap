@@ -1,0 +1,103 @@
+/*
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+   
+   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+   Joseph M Mwania CEO the appwebtech 
+    
+
+*/
+
+/*Style body elements by adding bg img & set it as cover + add font family*/
+body{
+	background: url(http://freenaturestock.s3.amazonaws.com/389.jpg) no-repeat center center ;
+	font-family: Arvo, serif;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*Style brand image*/
+.logo{
+	height: 50px;
+	padding-bottom: 15px;
+	
+	
+	
+}
+/*Style navigation bar*/
+.navbar-inverse{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 35px;
+	padding; 10px 0;
+}
+
+.nav li:hover{
+	border-bottom: 1px solid #00ffbb;
+	padding-bottom: 0px;
+	cursor: pointer;
+}
+/*Style jumbotron*/
+.jumbotron{
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	letter-spacing: 2.5px;
+}
+
+/*Limit width of icon section*/
+.container{
+	max-width: 1000px;
+}
+.bodyimage{
+	height: 100px;	
+}
+.col-md-4{
+	text-align: center;
+	color: #fff;
+	
+}
+.icons p{
+	font-size: 15px;
+}
+/*Style icons sections using bootstrao grid system*/
+
+/*Style contact button*/
+
+.contact{
+	text-align: center;
+	margin-top: 30px;
+}
+.btn{
+	background-color: rgb(0, 255, 184, 0.5);
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1.3px;
+	
+}
+.btn:hover{
+	background-color: rgba(40, 40, 177, 0.57);
+}
+/*Style footer*/
+.footer{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: grey;
+	font-size: 15px;
+	padding: 10px 0;
+}
+
+/*Use media queries to change icon size in small devices*/
+
+@media (max-width: 768px){
+	.bodyimage{
+		height: 70px;
+	}
+}
