@@ -33,6 +33,6 @@ https://twitter.com/appwebtech
 
 https://www.facebook.com/theappwebtech
 
-###Coding and deploying to Amazon Web Services and Heroku
+######Coding by the appwebtech
 
-Joseph M Mwania, CEO the appwebtech.
+Joseph M Mwania, CEO and founder of the appwebtech.
